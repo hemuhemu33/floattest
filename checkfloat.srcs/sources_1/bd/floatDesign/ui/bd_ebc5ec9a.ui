@@ -1,0 +1,30 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.62245",
+   "Default View_TopLeft":"-340,-444",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_s_axis_b_tvalid_0 -pg 1 -lvl 0 -x -280 -y -60 -defaultsOSRD
+preplace port port-id_s_axis_a_tvalid_0 -pg 1 -lvl 0 -x -280 -y -140 -defaultsOSRD
+preplace port port-id_aclk_0 -pg 1 -lvl 0 -x -280 -y -40 -defaultsOSRD
+preplace port port-id_m_axis_result_tvalid_0 -pg 1 -lvl 4 -x 810 -y -90 -defaultsOSRD
+preplace portBus s_axis_a_tdata_0 -pg 1 -lvl 0 -x -280 -y -180 -defaultsOSRD
+preplace portBus s_axis_b_tdata_0 -pg 1 -lvl 0 -x -280 -y -100 -defaultsOSRD
+preplace portBus m_axis_result_tdata_0 -pg 1 -lvl 4 -x 810 -y -130 -defaultsOSRD
+preplace inst floating_point_0 -pg 1 -lvl 3 -x 580 -y -120 -defaultsOSRD
+preplace netloc s_axis_a_tdata_0_1 1 0 3 N -180 N -180 N
+preplace netloc s_axis_b_tdata_0_1 1 0 3 N -100 N -100 N
+preplace netloc s_axis_b_tvalid_0_1 1 0 3 N -60 N -60 N
+preplace netloc s_axis_a_tvalid_0_1 1 0 3 N -140 N -140 N
+preplace netloc aclk_0_1 1 0 3 N -40 N -40 N
+preplace netloc floating_point_0_m_axis_result_tdata 1 3 1 N -130
+preplace netloc floating_point_0_m_axis_result_tvalid 1 3 1 N -90
+levelinfo -pg 1 -280 -80 240 580 810
+pagesize -pg 1 -db -bbox -sgen -500 -540 1220 590
+"
+}
+{
+   "da_board_cnt":"4",
+   "da_clkrst_cnt":"3"
+}

@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(int argc, char *argv[])
+{
+  float A = 3.5;
+  float B = 1.5;
+  float M = A+B;
+  printf("%x+%x=%x\n",A,B,M);
+  return 0;
+}
