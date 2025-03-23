@@ -12,7 +12,9 @@ module floatDesign (
   s_axis_a_tvalid_0,
   aclk_0,
   m_axis_result_tdata_0,
-  m_axis_result_tvalid_0
+  m_axis_result_tvalid_0,
+  s_axis_b_tready_0,
+  s_axis_a_tready_0
 );
 
   (* X_INTERFACE_IGNORE = "true" *)
@@ -31,6 +33,10 @@ module floatDesign (
   output [31:0]m_axis_result_tdata_0;
   (* X_INTERFACE_IGNORE = "true" *)
   output m_axis_result_tvalid_0;
+  (* X_INTERFACE_IGNORE = "true" *)
+  output s_axis_b_tready_0;
+  (* X_INTERFACE_IGNORE = "true" *)
+  output s_axis_a_tready_0;
 
   // stub module has no contents
 

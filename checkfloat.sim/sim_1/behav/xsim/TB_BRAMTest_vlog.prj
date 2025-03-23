@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../checkfloat.ip_user_files/bd/BRAMTest/ip/BRAMTest_blk_mem_gen_0_1/sim/BRAMTest_blk_mem_gen_0_1.v" \
+"../../../../checkfloat.ip_user_files/bd/BRAMTest/sim/BRAMTest.v" \
+"../../../../checkfloat.gen/sources_1/bd/BRAMTest/hdl/BRAMTest_wrapper.v" \
+"../../../../checkfloat.srcs/sim_1/new/TB_BRAMTest.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

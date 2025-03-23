@@ -29,6 +29,8 @@ module TB_floatDesing();
     .s_axis_a_tdata_0(s_axis_a_tdata),
     .s_axis_a_tvalid_0(s_axis_a_tvalid),
     .s_axis_b_tdata_0(s_axis_b_tdata),
+    .s_axis_a_tready_0(s_axis_a_tready),
+    .s_axis_b_tready_0(s_axis_b_tready),
     .s_axis_b_tvalid_0(s_axis_b_tready),
     .m_axis_result_tdata_0(m_axis_result_tdata),
     .m_axis_result_tvalid_0(m_axis_result_tvalid)

@@ -1,13 +1,14 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xBD5C723BF82067B2",
+      "boundary_crc": "0xA96609C31196DB3",
       "device": "xc7z010clg400-1",
       "gen_directory": "../../../../checkfloat.gen/sources_1/bd/floatDesign",
       "name": "floatDesign",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2024.2"
+      "tool_version": "2024.2",
+      "validated": "true"
     },
     "design_tree": {
       "floating_point_0": ""
@@ -33,8 +34,24 @@
         "type": "clk",
         "direction": "I",
         "parameters": {
+          "CLK_DOMAIN": {
+            "value": "floatDesign_aclk_0",
+            "value_src": "default"
+          },
           "FREQ_HZ": {
             "value": "10000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
           }
         }
       },
@@ -44,6 +61,12 @@
         "right": "0"
       },
       "m_axis_result_tvalid_0": {
+        "direction": "O"
+      },
+      "s_axis_b_tready_0": {
+        "direction": "O"
+      },
+      "s_axis_a_tready_0": {
         "direction": "O"
       }
     },
@@ -96,6 +119,18 @@
         "ports": [
           "floating_point_0/m_axis_result_tvalid",
           "m_axis_result_tvalid_0"
+        ]
+      },
+      "floating_point_0_s_axis_a_tready": {
+        "ports": [
+          "floating_point_0/s_axis_a_tready",
+          "s_axis_a_tready_0"
+        ]
+      },
+      "floating_point_0_s_axis_b_tready": {
+        "ports": [
+          "floating_point_0/s_axis_b_tready",
+          "s_axis_b_tready_0"
         ]
       },
       "s_axis_a_tdata_0_1": {

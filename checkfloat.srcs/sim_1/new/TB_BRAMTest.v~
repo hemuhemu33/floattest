@@ -1,0 +1,33 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 03/23/2025 08:11:28 PM
+// Design Name: 
+// Module Name: TB_BRAMTest
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module TB_BRAMTest();
+    reg clk = 0;
+    reg rst = 0;
+    
+    // bram port #0 port
+    
+    
+    
+    always #5 clk = ~clk;
+    
+endmodule

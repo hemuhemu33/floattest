@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-| Date         : Sun Mar 16 19:01:50 2025
+| Date         : Sun Mar 23 20:52:54 2025
 | Host         : taka-B760M running 64-bit Ubuntu 22.04.5 LTS
 | Command      : report_utilization -file floatDesign_utilization_synth.rpt -pb floatDesign_utilization_synth.pb
 | Design       : floatDesign
@@ -93,7 +93,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +-----------------------------+------+-------+------------+-----------+--------+
 |          Site Type          | Used | Fixed | Prohibited | Available |  Util% |
 +-----------------------------+------+-------+------------+-----------+--------+
-| Bonded IOB                  |  100 |     0 |          0 |       100 | 100.00 |
+| Bonded IOB                  |  102 |     0 |          0 |       100 | 102.00 |
 | Bonded IPADs                |    0 |     0 |          0 |         2 |   0.00 |
 | Bonded IOPADs               |    0 |     0 |          0 |       130 |   0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         2 |   0.00 |
@@ -150,7 +150,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | IBUF     |   67 |                  IO |
-| OBUF     |   33 |                  IO |
+| OBUF     |   35 |                  IO |
 +----------+------+---------------------+
 
 
